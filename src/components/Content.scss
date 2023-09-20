@@ -12,4 +12,19 @@
         display: block;
         font-size: 18px;
     }
+
+    &__contact {
+        &__email {
+            display: block;
+        }
+        &__phone {
+            display: block;
+        }
+        &__facebook {
+            display: block;
+        }
+        &__twitter {
+            display: block;
+        }
+    }
 }
