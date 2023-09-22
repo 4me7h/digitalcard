@@ -1,23 +1,44 @@
+@import "../theme/Theme.scss";
 .content {
+    &__header {
+        margin-bottom: 1rem;
+    }
     &__name {
         display: block;
-        font-size: 22px;
+        font-size: 25px;
+        font-weight: bold;
+        letter-spacing: .1rem;
     }
     &__position {
         display: block;
         font-size: 18px;
+        font-weight: bold;
     }
 
     &__company {
         display: block;
         font-size: 18px;
+        font-weight: bold;
+    }
+
+    &__about {
+        margin-bottom: 1rem;
+        &__text {
+            display: block;
+        }
     }
 
     &__contact {
+        &__title {
+            display: block;
+        }
         &__email {
             display: block;
         }
         &__phone {
+            display: block;
+        }
+        &__whatsapp {
             display: block;
         }
         &__facebook {

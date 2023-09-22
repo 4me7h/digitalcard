@@ -2,9 +2,9 @@ import React from "react";
 
 import "./Photo.scss";
 
-const Photo = () => {
+const Photo = ({photo}) => {
     return (
-        <section class="photo" style={{backgroundImage: `url(https://tinyurl.com/3yv7frnu)`}}>
+        <section class="photo" style={{backgroundImage: `url(${photo})`}}>
         </section>
     );
 }
