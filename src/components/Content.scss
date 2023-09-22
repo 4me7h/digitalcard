@@ -1,23 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 .content {
-    font-family: 'Roboto', sans-serif;
-    background-color: #b33939;;
-    a {
-        color: #b33939;
-        text-decoration: none;
-    }
-    span {
-        letter-spacing: .02rem;
-    }
+    font-family: 'Roboto', sans-serif; 
+
     &__header {
         margin-bottom: -1rem;
         box-shadow: 5px 5px 20px rgba(black, .25);
         border-radius: 10px;
-        padding: 1rem .5rem;
+        padding: 1rem 1rem;
         position: relative;
         top: -2rem;
         background-color: white;
-        text-align: center;
     }
     &__name {
         display: block;
@@ -34,7 +26,7 @@
     &__about {
         box-shadow: 5px 5px 20px rgba(black, .25);
         border-radius: 10px;
-        padding: 1rem .5rem;
+        padding: 1rem 1rem;
         margin-bottom: 1rem;
         background-color: white;
         &__title {
@@ -48,7 +40,7 @@
     &__contact {
         box-shadow: 5px 5px 20px rgba(black, .25);
         border-radius: 10px;
-        padding: 1rem .5rem;
+        padding: 1rem 1rem;
         background-color: white;
         margin-bottom: 2rem;
         span {
