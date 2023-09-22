@@ -7,7 +7,19 @@ import Col from "react-bootstrap/esm/Col";
 import "./Content.scss";
 
 const Content = (props) => {
-    const {name, position, company, aboutText, email, phone, whatsapp, whatsappmssg, facebook, facebookURL, twitter} = props;
+    const {
+        name, 
+        position, 
+        company, 
+        aboutText, 
+        email, 
+        phone, 
+        whatsapp, 
+        whatsappmssg, 
+        facebook, 
+        facebookURL, 
+        twitter
+    } = props;
     const twitterURL = `https://twitter.com/${twitter}`;
     const emailURL = `mailto:${email}`;
     const phoneURL = `tel:${phone}`;
