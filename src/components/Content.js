@@ -33,9 +33,9 @@ const Content = (props) => {
                                 <span className="content__contact__title">Contáctame</span>
                                 <span className="content__contact__email">E-mail: <a href={emailURL}>{email}</a></span>
                                 <span className="content__contact__phone">Teléfono: <a href={phoneURL}>{phone}</a> </span>
-                                <span className="content__contact__whatsapp">WhatsApp: <a href={whatsappURL} target="_blank">{phone}</a> </span>
-                                <span className="content__contact__facebook">Facebook: <a href={facebookURL} target="_blank">{facebook}</a></span>
-                                <span className="content__contact__twitter">Twitter: <a href={twitterURL} target="_blank">{twitter}</a></span>
+                                <span className="content__contact__whatsapp">WhatsApp: <a href={whatsappURL} target="_blank" rel="noreferrer">{phone}</a> </span>
+                                <span className="content__contact__facebook">Facebook: <a href={facebookURL} target="_blank" rel="noreferrer">{facebook}</a></span>
+                                <span className="content__contact__twitter">Twitter: <a href={twitterURL} target="_blank" rel="noreferrer">{twitter}</a></span>
                             </div>
                         </div>
                     </Col>

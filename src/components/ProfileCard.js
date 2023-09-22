@@ -21,7 +21,7 @@ const Card = () => {
                 email = "abrahamjose83@gmail.com"
                 phone = "9616085205"
                 whatsapp = "529616085205"
-                whatsappmssg ="I'm%20interested%20in%20your%20car%20for%20sale"
+                whatsappmssg ="Estoy%20interesado%20en%20tu%20servicio"
                 facebook = "Abraham Gómez José"
                 facebookURL = "https://www.facebook.com/abraham.gomezjose" 
                 twitter = "abrahamjose83"  
