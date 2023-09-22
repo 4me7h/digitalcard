@@ -1,32 +1,53 @@
 .content {
+    background-color: #b33939;;
+    a {
+        color: #b33939;
+    }
     &__header {
-        margin-bottom: 1rem;
+        margin-bottom: -1rem;
+        box-shadow: 5px 5px 20px rgba(black, .25);
+        border-radius: 10px;
+        padding: 1rem .5rem;
+        position: relative;
+        top: -2rem;
+        background-color: white;
+        text-align: center;
     }
     &__name {
         display: block;
-        font-size: 25px;
+        font-size: 22px;
         font-weight: bold;
         letter-spacing: .1rem;
     }
     &__position {
         display: block;
-        font-size: 18px;
-        font-weight: bold;
     }
     &__company {
         display: block;
-        font-size: 18px;
-        font-weight: bold;
     }
     &__about {
+        box-shadow: 5px 5px 20px rgba(black, .25);
+        border-radius: 10px;
+        padding: 1rem .5rem;
         margin-bottom: 1rem;
+        background-color: white;
+        &__title {
+            display: block;
+            font-weight: bold;
+        }
         &__text {
             display: block;
         }
     }
     &__contact {
+        box-shadow: 5px 5px 20px rgba(black, .25);
+        border-radius: 10px;
+        padding: 1rem .5rem;
+        background-color: white;
+        margin-bottom: 2rem;
         &__title {
             display: block;
+            font-weight: bold;
         }
         &__email {
             display: block;

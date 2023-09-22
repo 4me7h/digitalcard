@@ -7,22 +7,11 @@ import Col from "react-bootstrap/esm/Col";
 import "./Content.scss";
 
 const Content = (props) => {
-    const {
-        name, 
-        position, 
-        company, 
-        aboutText, 
-        email, 
-        phone, 
-        whatsapp, 
-        whatsappmssg, 
-        facebook, 
-        facebookURL, 
-        twitter
-    } = props;
+    const {name, position, company, aboutText, email, phone, whatsapp, whatsappmssg, facebook, facebookURL, twitter} = props;
+
     const twitterURL = `https://twitter.com/${twitter}`;
     const emailURL = `mailto:${email}`;
-    const phoneURL = `tel:${phone}`;
+    const phoneURL = `tel:${phone.replace(/\s+/g, '')}`;
     const whatsappURL = `https://wa.me/${whatsapp}?text=${whatsappmssg}`;
 
     return(
@@ -37,16 +26,24 @@ const Content = (props) => {
                                 <span className="content__company">{company}</span>
                             </div>
                             <div className="content__about">
+                                <span className="content__about__title">
+                                    Acerca de:
+                                </span>
                                 <span className="content__about__text">
                                     {aboutText}
                                 </span>
                             </div>
                             <div className="content__contact">
-                                <span className="content__contact__title">Contáctame</span>
+                                <span className="content__contact__title">Contáctame:</span>
+
                                 <span className="content__contact__email">E-mail: <a href={emailURL}>{email}</a></span>
-                                <span className="content__contact__phone">Teléfono: <a href={phoneURL}>{phone}</a> </span>
+
+                                <span className="content__contact__phone">Teléfono: <a href={phoneURL}>{phone}</a></span>
+
                                 <span className="content__contact__whatsapp">WhatsApp: <a href={whatsappURL} target="_blank" rel="noreferrer">{phone}</a> </span>
+
                                 <span className="content__contact__facebook">Facebook: <a href={facebookURL} target="_blank" rel="noreferrer">{facebook}</a></span>
+
                                 <span className="content__contact__twitter">Twitter: <a href={twitterURL} target="_blank" rel="noreferrer">{twitter}</a></span>
                             </div>
                         </div>
