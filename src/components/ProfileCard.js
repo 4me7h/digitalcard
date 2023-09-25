@@ -15,9 +15,9 @@ const Card = () => {
             />
             <Content 
                 name = "Abraham Gómez José"
-                position = "Especialista en Juicio Oral Penal"
-                company = "Especialista en Juicio Laboral"
-                aboutText = "La defensa legal que mereces, en cada palabra y argumento, sirviendo con experiencia."
+                position = {["Abogado Especialista en", <br />, "Juicio Oral, Laboral y Penal."]}
+                company = "CED: 6255376"
+                aboutText = {["Mis servicios jurídicos son de brindarte una defensa técnica adecuada en materia penal, laboral, familiar y amparo.", <br />, <br />, <em>"La justicia es la constante y perpetua voluntad de dar a cada uno su derecho." Ulpiano</em> ]}
                 email = "abrahamjose83@gmail.com"
                 phone = "961 60 85 205"
                 whatsapp = "529616085205"

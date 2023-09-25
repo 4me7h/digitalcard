@@ -26,16 +26,11 @@ const Content = (props) => {
                                 <span className="content__company">{company}</span>
                             </div>
                             <div className="content__about">
-                                <span className="content__about__title">
-                                    Acerca de:
-                                </span>
                                 <span className="content__about__text">
                                     {aboutText}
                                 </span>
                             </div>
                             <div className="content__contact">
-                                <span className="content__contact__title">Contáctame:</span>
-
                                 <span className="content__contact__email">E-mail: <a href={emailURL}>{email}</a></span>
 
                                 <span className="content__contact__phone">Teléfono: <a href={phoneURL}>{phone}</a></span>
